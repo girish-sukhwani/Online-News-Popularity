@@ -1,0 +1,10 @@
+Fitting 5 folds for each of 324 candidates, totalling 1620 fits
+[Parallel(n_jobs=-1)]: Done  34 tasks      | elapsed:  1.7min
+[Parallel(n_jobs=-1)]: Done 184 tasks      | elapsed:  8.8min
+[Parallel(n_jobs=-1)]: Done 434 tasks      | elapsed: 28.9min
+[Parallel(n_jobs=-1)]: Done 784 tasks      | elapsed: 60.8min
+[Parallel(n_jobs=-1)]: Done 1234 tasks      | elapsed: 103.5min
+[Parallel(n_jobs=-1)]: Done 1620 out of 1620 | elapsed: 157.0min finished
+The following is the best parameter setting for this problem:
+{'booster': 'gbtree', 'gamma': 1, 'learning_rate': 0.1, 'max_depth': 3, 'n_estimators': 100, 'subsample': 0.9}
+Training score on the best estimator: 0.011144267290955783
